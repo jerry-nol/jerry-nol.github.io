@@ -18,7 +18,7 @@ html {
   /* Navbar */
   .Navbar {
       overflow: hidden;
-      background-color: #180762;
+      background-color: #884a40;
       position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
       top: 0;
       width: 100%;
@@ -31,7 +31,7 @@ html {
   .Navbar a {
       float: left;
       display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-      color: rgb(112, 108, 108);
+      color: rgb(212, 205, 205);
       padding: .75vw 1vw;
       text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
       font-family: -apple-system, Roboto;
@@ -49,7 +49,7 @@ html {
   
   /* Navbar hover effect */
   .Navbar a:hover {
-    background-color: #2a0ea7; 
+    background-color: #a7530e; 
     color: rgb(243, 235, 235);
     font-weight: bold;
     cursor: pointer;
@@ -98,8 +98,8 @@ html {
   
   /* Slideshow section / container */
   #Slideshow_Container {
-    width: 39.5vw;
-    height: auto;
+    width: 500px;
+    height: 350px;
     padding-top: 4%;
     position: relative;
     margin: auto;
@@ -109,7 +109,7 @@ html {
   /* Images contained within slideshow */
   .Slide_Show_Images {
     vertical-align: middle;
-    height: auto;
+    height: 300px;
     box-shadow: 0px 5px 10px 12px rgba(0, 0, 0, .75);
     width: auto;
   }
@@ -187,7 +187,7 @@ html {
   
   /* Hover effect for slideshow dots */ 
   .active, .dot:hover {
-    background-color: rgb(48, 9, 121);
+    background-color: rgb(206, 123, 29);
   }
   
   /* Fading animation for slideshow */
@@ -204,7 +204,7 @@ html {
   .Column_1 {
       float: left;  
       width: 50%; /* This ensures one column takes up half the page width */
-      padding: 1.6%; 
+      padding: 1%; 
       background-color: #f2f2f2; 
       height: 448px; /* You may need to adjust this to fit your content */
   }
@@ -229,7 +229,7 @@ html {
       font-family: "Trebuchet MS", Optima; 
       text-align: center;
       margin-top: 3%;
-      color: #180f6e;
+      color: #91752f;
   }
   
   /* Paragraph elements */
@@ -288,7 +288,7 @@ html {
   
   /* Heading 1 element hover effect */
   h1:hover {
-      color: black;
+      color: goldenrod;
       font-weight: normal; /* Makes the text no longer bold when hovered over */ 
   
   }
@@ -375,15 +375,15 @@ html {
   /* Hover effect for buttons */
   button:hover, .form-container {
     color: white;
-    background-color: black;
+    background-color: rgb(88, 92, 89);
     transition-duration: .4s;
     border-style: solid;
-    border-color: silver;
+    border-color: rgb(12, 12, 12);
   }
 
 .btn:hover {
     background-color: rgb(20, 156, 20);
-    transition-duration: .4s;
+    transition-duration: .2s;
     
 }
 
@@ -391,7 +391,7 @@ html {
     color: white;
     background-color: darkred;
     -webkit-transition-duration: 1s; 
-    transition-duration: .4s;
+    transition-duration: .2s;
     border-style: solid;
     border-color: black;
   }	
